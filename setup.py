@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='helga-no-more-olga',
-    version='0.0.1',
+    version='0.1.0',
     description='A helga matcher that tells people to talk to helga instead of olga',
     classifiers=[
         'Development Status :: 4 - Beta',
