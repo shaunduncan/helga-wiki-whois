@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='helga-no-more-olga',
+    name='helga-wiki-whois',
     version='0.1.0',
-    description='A helga matcher that tells people to talk to helga instead of olga',
+    description='A helga command to generate confluence-type URLs for users',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Topic :: Communications :: Chat :: Internet Relay Chat',
@@ -16,17 +16,17 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
-    keywords='helga olga',
+    keywords='helga wiki whois',
     author="Shaun Duncan",
     author_email="shaun.duncan@gmail.com",
-    url="https://github.com/shaunduncan/helga-no-more-olga",
+    url="https://github.com/shaunduncan/helga-wiki-whois",
     packages=find_packages(),
-    py_modules=['helga_no_more_olga'],
+    py_modules=['helga_wiki_whois'],
     include_package_data=True,
     zip_safe=True,
     entry_points=dict(
         helga_plugins=[
-            'no_more_olga = helga_no_more_olga:no_more_olga',
+            'wiki_whois = helga_wiki_whois:wiki_whois',
         ],
     ),
 )
